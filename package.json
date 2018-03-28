@@ -2,10 +2,13 @@
   "name": "hardyhar",
   "version": "0.1.0",
   "description": "Transform HAR request object to beautiful code snippets.",
-  "main": "src/index.js",
+  "main": "dist/hardyhar.js",
   "author": "Darren Jennings",
   "license": "MIT",
   "private": true,
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup --config build/rollup.config.js",
     "test": "jest"
